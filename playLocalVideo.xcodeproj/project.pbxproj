@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB61B5D51E2478EF00B3689D /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EB61B5D41E2478EF00B3689D /* emoji zone.mp4 */; };
 		EB8047121E2373E600987CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8047111E2373E600987CC7 /* AppDelegate.swift */; };
 		EB8047141E2373E600987CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8047131E2373E600987CC7 /* ViewController.swift */; };
 		EB8047171E2373E600987CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8047151E2373E600987CC7 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		EB80471C1E2373E600987CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB80471A1E2373E600987CC7 /* LaunchScreen.storyboard */; };
 		EB8047271E2373E600987CC7 /* playLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8047261E2373E600987CC7 /* playLocalVideoTests.swift */; };
 		EB8047321E2373E600987CC7 /* playLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8047311E2373E600987CC7 /* playLocalVideoUITests.swift */; };
+		EB8047411E237AD100987CC7 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80473F1E237AD100987CC7 /* VideoTableViewCell.swift */; };
+		EB8047421E237AD100987CC7 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8047401E237AD100987CC7 /* VideoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB61B5D41E2478EF00B3689D /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 		EB80470E1E2373E500987CC7 /* playLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8047111E2373E600987CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8047131E2373E600987CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		EB80472D1E2373E600987CC7 /* playLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playLocalVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8047311E2373E600987CC7 /* playLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playLocalVideoUITests.swift; sourceTree = "<group>"; };
 		EB8047331E2373E600987CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB80473F1E237AD100987CC7 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		EB8047401E237AD100987CC7 /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		EB8047051E2373E500987CC7 = {
 			isa = PBXGroup;
 			children = (
+				EB61B5D41E2478EF00B3689D /* emoji zone.mp4 */,
 				EB8047101E2373E600987CC7 /* playLocalVideo */,
 				EB8047251E2373E600987CC7 /* playLocalVideoTests */,
 				EB8047301E2373E600987CC7 /* playLocalVideoUITests */,
@@ -99,6 +106,8 @@
 			children = (
 				EB8047111E2373E600987CC7 /* AppDelegate.swift */,
 				EB8047131E2373E600987CC7 /* ViewController.swift */,
+				EB80473F1E237AD100987CC7 /* VideoTableViewCell.swift */,
+				EB8047401E237AD100987CC7 /* VideoTableViewCell.xib */,
 				EB8047151E2373E600987CC7 /* Main.storyboard */,
 				EB8047181E2373E600987CC7 /* Assets.xcassets */,
 				EB80471A1E2373E600987CC7 /* LaunchScreen.storyboard */,
@@ -229,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB61B5D51E2478EF00B3689D /* emoji zone.mp4 in Resources */,
 				EB80471C1E2373E600987CC7 /* LaunchScreen.storyboard in Resources */,
+				EB8047421E237AD100987CC7 /* VideoTableViewCell.xib in Resources */,
 				EB8047191E2373E600987CC7 /* Assets.xcassets in Resources */,
 				EB8047171E2373E600987CC7 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +269,7 @@
 			files = (
 				EB8047141E2373E600987CC7 /* ViewController.swift in Sources */,
 				EB8047121E2373E600987CC7 /* AppDelegate.swift in Sources */,
+				EB8047411E237AD100987CC7 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				EB8047381E2373E600987CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8047391E2373E600987CC7 /* Build configuration list for PBXNativeTarget "playLocalVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				EB80473B1E2373E600987CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB80473C1E2373E600987CC7 /* Build configuration list for PBXNativeTarget "playLocalVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				EB80473E1E2373E600987CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
